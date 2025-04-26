@@ -13,7 +13,7 @@ int main(){
 	
 	int a = 0;
 	for(int i = 0; i < size * 2; ++i){
-		if(a < 3){
+		if(a < size){
 			printf("%d ", arr1[i]);
 		}else{
 			printf("%d ", arr2[i - size]);

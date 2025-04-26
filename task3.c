@@ -10,10 +10,9 @@ int main(){
 	}
 	for(int i = 0; i < size; ++i){
 		if(num == arr[i]){
-			printf("Yes, ");
-		}else{
-			printf("No, ");
+			printf("Yes \n");
+			return 0;
 		}
 	}
-	printf("\n");
+	printf("No \n");
 }
